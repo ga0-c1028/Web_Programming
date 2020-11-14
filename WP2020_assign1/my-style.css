@@ -1,0 +1,14 @@
+.table {
+    margin: auto;
+    text-align: left;
+    display: block;
+}
+
+.table-head {
+    display: inline-block;
+}
+.table-body {
+    height: 300px;
+    overflow-y: scroll;
+    display: inline-block;
+}
