@@ -1,13 +1,13 @@
-.table-fixed tbody {
+.table-body {
     height: 300px;
     overflow-y: scroll;
     width: 90%;
 }
-.table-fixed thead {
+.table-head {
   width: 90%;
 }
-.table-fixed thead,
-.table-fixed tbody,
+.table-head,
+.table-body,
 .table-fixed tr,
 .table-fixed td,
 .table-fixed th {
@@ -15,9 +15,9 @@
     border-collapse: separate;
 }
 
-.table-fixed tbody td,
-.table-fixed tbody th,
-.table-fixed thead > tr > th {
+.table-body td,
+.table-body th,
+.table-head > tr > th {
     display: inline-block;
     position: relative;
 }
