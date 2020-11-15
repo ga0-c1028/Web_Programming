@@ -1,14 +1,23 @@
-.table {
-    margin: auto;
-    text-align: left;
-    display: block;
-}
-
-.table-head {
-    display: inline-block;
-}
-.table-body {
+.table-fixed tbody {
     height: 300px;
     overflow-y: scroll;
+    width: 90%;
+}
+.table-fixed thead {
+  width: 90%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+    border-collapse: separate;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
     display: inline-block;
+    position: relative;
 }
