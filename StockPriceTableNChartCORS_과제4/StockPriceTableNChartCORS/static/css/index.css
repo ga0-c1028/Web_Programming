@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+#HomeSection {
+	background: #e74c3c;
+    color: #FFFF33;
+    padding: 0;
+}
+#JumbotronImage {
+	width: 100%;
+}
+#JumbotronHeading {
+	margin-top: 30px;
+}
+#JumbotronPara {
+	margin-top: 120px;
+	padding-left: 100px;
+}
+#JumbotronTable {
+	margin-top: 160px;
+	margin-left: 100px;
+}
+.jumbotronTextOnImages {
+	position: absolute;
+	width: 100%;
+}
+.btn-transparent {
+	background-color: Transparent;
+}
+.btn-transparent:hover {
+	color: #BDB76B;
+}
+.btn-transparent:active, 
+.btn-transparent.active, 
+.btn-transparent:focus,
+.btn-transparent.focus {
+	color: #FFFFFF !important;
+}
+
+.table-body {
+    height: 300px !important;
+    overflow-y: scroll;
+	width: 50%;
+	float: left;
+}
+.table-head {
+  width: 50%;
+}
+.table-head,
+.table-body,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: inline;
+	border-collapse: separate;
+}
+
+.table-body td,
+.table-body th,
+.table-head > tr > th {
+    display: inline;
+    position: relative;
+}
+
+#show {
+	float: left !important;
+	width: 50% !important;
+	padding: 10px;
+	height: 300px;
+}
+
+.tableNchart:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+
+@media screen and (max-width: 600px) {
+	#show {
+	  width: 100%;
+	}
+}
+
+/*
+.tableNchart {
+	width: 98%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+#show-table {
+	width: 49%;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#show-chart {
+	width: 49%;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: right;
+	overflow: auto;
+}
+
+@media screen and ( max-width: 600px;) {
+	.tableNchart {
+		width: auto;
+	}
+	#show-table {
+		float: left;
+		width: auto;
+	}
+	#show-chart {
+		float: right;
+		width: auto;
+	}
+}*/
